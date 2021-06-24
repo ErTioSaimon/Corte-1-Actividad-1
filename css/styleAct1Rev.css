@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tammudu 2', cursive;
+    }
+    
+    #encabezado{
+    justify-content: center;
+    width:100%;
+    align-items: center;
+    display: flex;
+    background-size: auto;
+    text-align: center;
+    background-color: black;
+    background-image: url(/Actividades/Actividad1/imagenes/decoracion/trazos.jpg);
+background-size: 600px 400px ;
+    }
+    
+    #encabezado h1{
+    margin-top: 20px;
+    margin-left: 15px;
+    color: white;
+    font-size: 30pt;
+    }
+    
+    #encabezado img{
+    margin-bottom: 15px;
+    }
+    
+    #navegacion{
+    width:100%;
+    border-top: solid 2px white;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(/Actividades/Actividad1/imagenes/decoracion/trazos.jpg);
+background-size: 600px 400px ;
+    }
+
+    #navegacion ol{
+    display: flex;
+    padding:0px;
+    margin:0px;
+    }
+
+    #navegacion ol li{
+    list-style: none;
+    }
+    #navegacion ol li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: flex;
+    }
+
+    #navegacion ol li a:hover{
+    color:black;
+    background-color: white;
+    }
+    
+    #cuerpo{
+        margin: auto;
+    width: 80%;
+    
+    background-color:lightgrey;
+    
+    padding-left:5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    }
+    #pie{
+    width:100%;
+    background-color:black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    background-image: url(/Actividades/Actividad1/imagenes/decoracion/trazos.jpg);
+background-size: 600px 400px ;
+    }
+    
+    .espacio{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .cuerpo-titulo{
+        display: flex;
+        align-items:center;
+    }
+    
+    .cuerpo-titulo > h2{
+        margin-left: 20px;
+        text-align: center;
+    }
+    
+    .cuerpo-contenido{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .cuerpo-contenido h3{
+        font-size: 30px;
+    }
+    
+    .justificada{
+    text-align: justify;
+    Text-indent: 5%;
+    }
+    .justificada-conclu{
+        text-align: center;
+        }
+    
+    .centrada{
+    text-align: center;
+    }
+    
+    .seccion{
+        display: inline-block;
+        margin: auto;
+    }
+
+    .seccion ul{
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .seccion ul li{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .seccion ul li a img:hover{
+        filter: brightness(60%);
+    }
+
+    a:link{
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color:dodgerblue;
+        text-decoration: underline;
+    }
+
+    a:visited{
+    color: rgb(243, 9, 9);
+    }
+
+    .reducida{
+        max-width: 95%;
+        width: 300px;
+        border: 5px solid black;
+        }
+
+    .reducida2{
+        max-width: 95%;
+        width: 1000px;
+        border: 5px solid black;
+        }
+
+    .nota{
+        font-size: 50px;
+    }
+    .imagen-redonda2{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    float: left;
+    
+    margin-top: 15px;
+    margin-left: 15px;
+    }
+
+    @media (max-width: 400px) {
+        #encabezado h1{
+            font-size: 20px;
+        }
+        .justificada{
+            font-size: 15px;
+            Line-height:1.5;
+            Text-indent: 10%;
+        }
+        .justificada-conclu{
+            text-align: center;
+            font-size: 15px;
+            }
+    }

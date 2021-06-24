@@ -1,0 +1,148 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Baloo Tammudu 2', cursive;
+}
+
+#encabezado{
+justify-content: center;
+width:100%;
+align-items: center;
+display: flex;
+background-size: auto;
+text-align: center;
+background-color: rgb(61, 184, 44);
+background-image: url(/Actividades/Actividad1/imagenes/decoracion/trazos.jpg);
+background-size: 600px 400px ;
+}
+
+#encabezado h1{
+margin-top: 20px;
+margin-left: 15px;
+color: white;
+font-size: 30pt;
+}
+
+#encabezado img{
+margin-bottom: 15px;
+}
+
+#navegacion{
+width:100%;
+border-top: solid 2px white;
+background-color: black;
+text-align: center;
+justify-content: center;
+display: flex;
+background-image: url(/Actividades/Actividad1/imagenes/decoracion/trazos.jpg);
+background-size: 600px 400px ;
+}
+
+#navegacion ol{
+display: flex;
+padding:0px;
+margin:0px;
+}
+
+#navegacion ol li{
+list-style: none;
+}
+
+#navegacion ol li a{
+color:white;
+text-decoration: none;
+font-weight: bold;
+padding: 5px 10px;
+display: flex;
+}
+
+#navegacion ol li a:hover{
+color:black;
+background-color: white;
+}
+
+#cuerpo{
+margin: auto;
+width: 80%;
+background-color:lightgrey;
+padding-left:5%;
+padding-right: 5%;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+#pie{
+width:100%;
+background-color:black;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+color:white;
+background-image: url(/Actividades/Actividad1/imagenes/decoracion/trazos.jpg);
+background-size: 600px 400px ;
+}
+
+.active{
+    color:red;
+    background-color:goldenrod;
+    }
+    
+.espacio{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.cuerpo-titulo{
+    display: flex;
+    align-items:center;
+}
+
+.cuerpo-titulo > h2{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.cuerpo-contenido{
+    font-size: 20px;
+}
+
+.justificada{
+text-align: justify;
+}
+
+.centrada{
+text-align: center;
+}
+
+.imagen-1{
+    align-items: center;
+    
+    display: flex;
+    margin-bottom: 20px;
+    }
+
+.imagen-1 > p{
+    margin-left: 10px;
+    }
+
+.imagen-redonda{
+border-radius: 340px;
+}
+.imagen-redonda2{
+border-radius: 100%;
+width: 120px;
+height: 120px;
+float: left;
+
+margin-top: 15px;
+margin-left: 15px;
+}
+
+@media (max-width: 400px) {
+    #encabezado h1{
+        font-size: 20px;
+    }
+    .justificada{
+        font-size: 15px;
+    }
+}
+
